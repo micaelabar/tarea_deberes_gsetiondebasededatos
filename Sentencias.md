@@ -27,3 +27,36 @@ WHERE category = 'Audio';
 -Captura.
 <img!![Ima](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/cbf6d1f3-cdac-42c1-bb35-f12d467de00b)
 
+## 4.Contar el número de clientes en una ciudad específica.
+ - Sentencia:
+```
+ ## 5.Contar el número de productos cuyo precio está dentro de un rango específico.
+- Sentencia:
+```
+````
+-Captura.
+ ## 6. Seleccionar clientes que viven en una ciudad específica y tienen un tipo de cliente específico,
+- Sentencia:
+```
+````
+-Captura.
+ ## 7. Seleccionar productos que pertenecen a una categoría específica y cuyo precio está por encima de un valor específico
+- Sentencia:
+```
+````
+-Captura.
+ ## 8. Seleccionar productos que fueron producidos en un año específico y en un país de origen específico
+- Sentencia:
+```
+````
+-Captura.
+ ## 9. Seleccionar clientes cuyo nombre completo comience con 'J'.
+- Sentencia:
+```
+````
+-Captura.
+  ## 10. Seleccionar clientes cuya ciudad contenga la letra 'a'
+- Sentencia:
+```
+````
+-Captura.
