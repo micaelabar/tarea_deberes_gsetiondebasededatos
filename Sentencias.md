@@ -30,16 +30,34 @@ WHERE category = 'Audio';
 ## 4.Contar el número de clientes en una ciudad específica.
  - Sentencia:
 ```
+SELECT COUNT(*) AS numero_de_client
+FROM client
+WHERE city = 'Quito';
+SELEC 
+````
+-Captura.
+<img!![Captura de pantalla 2024-06-08 175207](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/9eaa2277-0f6a-42f6-ae1e-1755fac6cb47)
+
  ## 5.Contar el número de productos cuyo precio está dentro de un rango específico.
 - Sentencia:
 ```
+SELECT COUNT(*) AS numero_de_productos
+FROM product
+WHERE price >= 10 AND price <= 20;
 ````
 -Captura.
+<img!![Captura de pantalla 2024-06-08 180216](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/44b840c2-c64f-466c-8d01-5ffc5014534e)
+
  ## 6. Seleccionar clientes que viven en una ciudad específica y tienen un tipo de cliente específico,
 - Sentencia:
 ```
+SELECT id_client, nombre, ciudad, tipo_client
+FROM client
+WHERE ciudad = 'Quito' AND tipo_cliente = 'Premium';
 ````
 -Captura.
+<img!![Captura de pantalla 2024-06-08 180759](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/b2cc8114-5113-4288-b2cc-2910e44d19f7)
+
  ## 7. Seleccionar productos que pertenecen a una categoría específica y cuyo precio está por encima de un valor específico
 - Sentencia:
 ```
