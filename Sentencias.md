@@ -66,15 +66,31 @@ WHERE ciudad = 'Quito' AND tipo_cliente = 'Premium';
  ## 8. Seleccionar productos que fueron producidos en un año específico y en un país de origen específico
 - Sentencia:
 ```
+SELECT id, year_of_production, country_of_origin
+FROM product
+WHERE year_of_production = 2022 AND country_of_origin = 'USA';
+
 ````
 -Captura.
+<img!![Captura de pantalla 2024-06-08 182522](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/d7caf713-879b-4128-9300-b7025f642ebd)
+
  ## 9. Seleccionar clientes cuyo nombre completo comience con 'J'.
 - Sentencia:
 ```
+SELECT id, full_name
+FROM client
+WHERE full_name LIKE 'J%';
 ````
 -Captura.
+<img!![Captura de pantalla 2024-06-08 182912](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/6be38323-d58b-4c60-805e-8d41a4bb79c5)
+
   ## 10. Seleccionar clientes cuya ciudad contenga la letra 'a'
 - Sentencia:
 ```
+SELECT id, city
+FROM client
+WHERE city LIKE '%a%';
 ````
 -Captura.
+<imag!![Captura de pantalla 2024-06-08 183118](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/ca554608-6e07-4583-9512-b155eacd122b)
+
