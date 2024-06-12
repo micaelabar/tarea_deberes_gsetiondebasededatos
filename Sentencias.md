@@ -61,8 +61,14 @@ WHERE ciudad = 'Quito' AND tipo_cliente = 'Premium';
  ## 7. Seleccionar productos que pertenecen a una categoría específica y cuyo precio está por encima de un valor específico
 - Sentencia:
 ```
+SELECT name, category, price
+FROM product
+WHERE category = 'Clothes'
+  AND price > 100;
 ````
 -Captura.
+<img!![image](https://github.com/micaelabar/tarea_deberes_gsetiondebasededatos/assets/148156209/6c8dbe58-f358-41c3-8fa4-845456be8164)
+
  ## 8. Seleccionar productos que fueron producidos en un año específico y en un país de origen específico
 - Sentencia:
 ```
